@@ -13,12 +13,19 @@
 </head>
 
 <body>
-   <div class="thanks__info" id="thanks__info">
-      <h2 class="thanks__titile">Thank you for being with us!</h2>
-      <p class="thanks__text">Take care and love your cats</p>
-      <div class="thanks__close" id="thanks__close"><i class="fas fa-times"></i></div>
-   </div>
-   </div>
+   <div class="thanks" id="thanks">
+      <div class="thanks__banner">
+         <!-- Download Animation -->
+         <div class="wrapper" id="wrapper">
+            <div class="cssload-loader"></div>
+         </div>
+         <!-- ========================== -->
+         <div class="thanks__info" id="thanks__info">
+            <h2 class="thanks__titile">Thank you for being with us!</h2>
+            <p class="thanks__text">Take care and love your cats</p>
+            <div class="thanks__close" id="thanks__close"><i class="fas fa-times"></i></div>
+         </div>
+      </div>
    </div>
    <header class="header" id="header">
       <div class="container">
@@ -80,20 +87,42 @@
             <button class="cats__button" id="cats__button"> <span>Показать еще 6 товаров</span>
             </button>
          </section>
-         <!-- Scroll to top -->
-         <div class="to-top" id="to-top">
-            <i class="fas fa-arrow-up"></i>
-         </div>
-         <!-- ======================= -->
-         <!-- Add to chosen -->
-         <div class="add-to-chosen" id="add_to_chosen">
-            <p class="add-text">Add to favorites</p>
-         </div>
-         <!-- ============================= -->
+         <section class="promo" id="promo">
+            <div class="promo__info">
+               <h2 class="promo__title">Успей купить!</h2>
+               <p class="promo__text">Подпишись и успей
+                  словить все акции</p>
+            </div>
+            <form action="#" class="promo__form">
+               <input class="promo__email" id="email" type="email" placeholder="Email" required
+                  pattern=".+@beststartupever\.com">
+               <button class="promo__button" id="promo__button"> <span>Подпишись</span> </button>
+               <div class="promo__checkbox">
+                  <input type="checkbox" class="promo__input-checkbox" id="promo__checkbox">
+                  <label for="promo__checkbox" class="promo__label" id="promo__label"> Подписаться на новости</label>
+               </div>
+            </form>
+         </section>
+      </div>
+   </main>
+   <!-- Scroll to top -->
+   <div class="to-top" id="to-top">
+      <i class="fas fa-arrow-up"></i>
+   </div>
+   <!-- ======================= -->
+   <!-- Add to chosen -->
+   <div class="add-to-chosen" id="add_to_chosen">
+      <p class="add-text">Add to favorites</p>
+   </div>
+   <!-- ============================= -->
 
-         <script src="js/scroll-top.js"></script>
-         <script src="js/burger-menu.js"></script>
-         <script src="js/index.js"></script>
+   <div class="error" id="error">
+      <p class="error__text">Please enter Email</p>
+   </div>
+
+   <script src="js/scroll-top.js"></script>
+   <script src="js/burger-menu.js"></script>
+   <script src="js/index.js"></script>
 </body>
 
 </html>
