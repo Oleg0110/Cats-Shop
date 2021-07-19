@@ -218,75 +218,75 @@ function ageSort() {
 
 
 // Button Function ===
-// const follBtn = document.getElementById('promo__button');
-// const banner = document.getElementById('thanks');
-// const load = document.getElementById('wrapper')
-// const info = document.getElementById('thanks__info')
-// const closeInfo = document.getElementById('thanks__close')
-// const getMail = document.getElementById('email')
-// const emailErr = document.getElementById("error")
-// let currentEmail = []
+const follBtn = document.getElementById('promo__button');
+const banner = document.getElementById('thanks');
+const load = document.getElementById('wrapper')
+const info = document.getElementById('thanks__info')
+const closeInfo = document.getElementById('thanks__close')
+const getMail = document.getElementById('email')
+const emailErr = document.getElementById("error")
+let currentEmail = []
 
-// function sendEmail() {
-//    currentEmail = getMail.value
+function sendEmail() {
+   currentEmail = getMail.value
 
-//    if (currentEmail === "") {
-//       emailErr.classList.add("error-sidebar-opened")
-//       hideSidebar = () => { emailErr.classList.remove('error-sidebar-opened') }
-//       setTimeout(hideSidebar, 2000)
-//    }
-//    else {
-//       console.log(currentEmail);
-//    }
-// }
-// follBtn.addEventListener('click', sendEmail);
+   if (currentEmail === "") {
+      emailErr.classList.add("error-sidebar-opened")
+      hideSidebar = () => { emailErr.classList.remove('error-sidebar-opened') }
+      setTimeout(hideSidebar, 2000)
+   }
+   else {
+      console.log(currentEmail);
+   }
+}
+follBtn.addEventListener('click', sendEmail);
 
-// function oppenBanner() {
-//    banner.classList.add("thanks-opened");
+function oppenBanner() {
+   banner.classList.add("thanks-opened");
 
-//    hideBanner = () => { banner.classList.remove("thanks-opened") };
-//    setTimeout(hideBanner, 1000);
+   hideBanner = () => { banner.classList.remove("thanks-opened") };
+   setTimeout(hideBanner, 1000);
 
-//    addFlex = () => {
-//       banner.style.display = 'flex';
-//       info.style.display = 'block';
-//       load.style.display = 'none'
-//    }
-//    setTimeout(addFlex, 1000);
+   addFlex = () => {
+      banner.style.display = 'flex';
+      info.style.display = 'block';
+      load.style.display = 'none'
+   }
+   setTimeout(addFlex, 1000);
 
-//    deleteBanner = () => {
-//       banner.style.display = 'none';
-//       info.style.display = 'none'
-//    }
-//    setTimeout(deleteBanner, 5000)
+   deleteBanner = () => {
+      banner.style.display = 'none';
+      info.style.display = 'none'
+   }
+   setTimeout(deleteBanner, 5000)
 
-//    closeInfo.addEventListener('click', () => {
-//       banner.style.display = 'none'
-//    })
-// }
+   closeInfo.addEventListener('click', () => {
+      banner.style.display = 'none'
+   })
+}
 
-// function getUser() {
-//    userEmail = getMail.value
-//    if (userEmail === "") {
-//       emailErr.classList.add("error-sidebar-opened")
-//       hideSidebar = () => { emailErr.classList.remove('error-sidebar-opened') }
-//       setTimeout(hideSidebar, 2000)
-//    }
-//    else {
-//       let users = [{ user: { userEmail: `${userEmail}` } }]
+function getUser() {
+   userEmail = getMail.value
+   if (userEmail === "") {
+      emailErr.classList.add("error-sidebar-opened")
+      hideSidebar = () => { emailErr.classList.remove('error-sidebar-opened') }
+      setTimeout(hideSidebar, 2000)
+   }
+   else {
+      let users = [{ user: { userEmail: `${userEmail}` } }]
 
-//       console.log(users);
-//       oppenBanner()
-//    }
-// }
+      console.log(users);
+      oppenBanner()
+   }
+}
 
-// follBtn.addEventListener('click', () => {
-//    getUser()
-// })
+follBtn.addEventListener('click', () => {
+   getUser()
+})
 
-// follBtn.addEventListener('click', (e) => {
-//    e.preventDefault()
-// })
+follBtn.addEventListener('click', (e) => {
+   e.preventDefault()
+})
 
 
 
