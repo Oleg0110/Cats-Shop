@@ -1,9 +1,7 @@
 "use strict";
 
 let scrolled;
-
 let timer;
-
 let btn = document.getElementById("to-top")
 
 document.getElementById("to-top").onclick = function () {
@@ -31,7 +29,6 @@ function getScroll() {
       btn.style.display = 'none'
    }
 }
-
 
 window.onscroll = getScroll
 btn.style.display = 'none'

@@ -1,10 +1,13 @@
+
+//Get Cats ==============
+
 let cats = []
 let oldcats = []
 const size = 6;
 let count = 1;
 
 
-function getResultCats() {
+function renderCats() {
    let k = 0;
    const choice = document.getElementById("cats__choice")
    choice.innerHTML = '';
@@ -29,26 +32,14 @@ function getResultCats() {
          <h2 class="cats__name">${cat.name}</h2>
          <div class="cats__description">
             <span class="cats__color">${cat.color}</span>
-            <span class="cats__corect-age"><span>${cat.age} мес.</span> <br> Возраст</span>
-            <span class="cats__corect-paws"><span>${cat.paws}</span> <br> Кол-во лап</span>
+            <span class="cats__corect-age"><span>${cat.age} мес.</span> <br> Age</span>
+            <span class="cats__corect-paws"><span>${cat.paws}</span> <br> Paws</span>
          </div>
-         <p class="cats__corect-price">${cat.price} руб.</p>
+         <p class="cats__corect-price">${cat.price} $</p>
       </div>
-      <button class="cats__button-buy"><span>${cat.buy}</span></button>`
+      <button class="cats__button-buy"><span>Buy</span></button>`
 
       choice.appendChild(div);
-
-
-
-
-
-
-
-      // if (cat.sale === String) {
-      //    console.log('sjjjjhh');
-      //    const sale = document.getElementById("cats__discount");
-      //    return sale.style.display = 'block'
-      // }
 
       k++;
    });
@@ -63,40 +54,32 @@ async function getCats() {
 getCats().then((data) => {
    cats = data.cats;
 
-   document.getElementById("header__title").innerHTML = `Найдено ${cats.length} котов`;
+   document.getElementById("header__title").innerHTML = `Found ${cats.length} cats`;
    oldcats = [...cats];
 
-   getResultCats()
+   renderCats()
 })
    .catch((err) => err);
+
+//=====================================
+
 
 // Show more cats
 const moreCats = document.getElementById('cats__button');
 
 moreCats.addEventListener('click', more);
 
-
 function more() {
    count++;
-   getResultCats()
+   renderCats()
 }
 // ===========
 
 //Add to chosen ========
 
-// const pressesLikes = document.getElementById("like" + ind)
-// pressesLike.addEventListener('click', pressLike)
 
 function pressLike(ind) {
-   const likes = document.getElementById("like" + ind);
    const add = document.getElementById("add_to_chosen")
-
-   likes.addEventListener('click', () => {
-      add.classList.add('add-sidebar-opened');
-
-      hideSidebar = () => { add.classList.remove('add-sidebar-opened') }
-      setTimeout(hideSidebar, 2000)
-   })
 
    let btn = document.getElementById("like" + ind)
    if (btn.style.opacity === "2") {
@@ -104,8 +87,10 @@ function pressLike(ind) {
    }
    else {
       btn.style.opacity = "2";
-
    }
+   add.classList.add('add-sidebar-opened');
+   hideSidebar = () => { add.classList.remove('add-sidebar-opened') }
+   setTimeout(hideSidebar, 2000)
 }
 
 // ===============
@@ -169,7 +154,7 @@ function priceSort() {
       sort.price = false;
    }
 
-   getResultCats()
+   renderCats()
 }
 function ageSort() {
    // cats.sort((first, second) => {
@@ -194,24 +179,10 @@ function ageSort() {
       cats.sort((first, second) => {
          return first.age < second.age && 1 || first.age > second.age && -1 || 0
       })
-      // cats = [...oldcats];
       sort.age = false;
    }
 
-   // if (!sort.age) {
-   //    cats.sort((first, second) => {
-   //       return first.age > second.age && 1 || first.age < second.age && -1 || 0
-   //    })
-   //    sort.age = true;
-   // }
-   // else {
-   //    // cats.sort((first, second) => {
-   //    //    return first.age < second.age && 1 || first.age > second.age && -1 || 0
-   //    // })
-   //    sort.age = false;
-   // }
-
-   getResultCats()
+   renderCats()
 }
 
 // ================
@@ -225,7 +196,8 @@ const info = document.getElementById('thanks__info')
 const closeInfo = document.getElementById('thanks__close')
 const getMail = document.getElementById('email')
 const emailErr = document.getElementById("error")
-let currentEmail = []
+let currentEmail;
+let emails = []
 
 function sendEmail() {
    currentEmail = getMail.value
@@ -236,12 +208,15 @@ function sendEmail() {
       setTimeout(hideSidebar, 2000)
    }
    else {
-      console.log(currentEmail);
+      emails.push(currentEmail)
+      oppenBanner()
    }
 }
-follBtn.addEventListener('click', sendEmail);
 
 function oppenBanner() {
+   banner.style.display = '';
+   load.style.display = ''
+
    banner.classList.add("thanks-opened");
 
    hideBanner = () => { banner.classList.remove("thanks-opened") };
@@ -258,49 +233,18 @@ function oppenBanner() {
       banner.style.display = 'none';
       info.style.display = 'none'
    }
-   setTimeout(deleteBanner, 5000)
+   setTimeout(deleteBanner, 3000)
 
    closeInfo.addEventListener('click', () => {
       banner.style.display = 'none'
    })
 }
 
-function getUser() {
-   userEmail = getMail.value
-   if (userEmail === "") {
-      emailErr.classList.add("error-sidebar-opened")
-      hideSidebar = () => { emailErr.classList.remove('error-sidebar-opened') }
-      setTimeout(hideSidebar, 2000)
-   }
-   else {
-      let users = [{ user: { userEmail: `${userEmail}` } }]
-
-      console.log(users);
-      oppenBanner()
-   }
-}
-
-follBtn.addEventListener('click', () => {
-   getUser()
-})
+follBtn.addEventListener('click', sendEmail);
 
 follBtn.addEventListener('click', (e) => {
    e.preventDefault()
 })
 
 
-
 // ===============
-
-
-//Send Users email=====
-// class SendEmailTo
-// async post(){
-
-// }
-
-// fetch("../json/users.json", {
-//    method: 'POST',
-//    body: getUser()
-// })
-//====================
