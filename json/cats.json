@@ -1,0 +1,317 @@
+{
+   "cats": [
+      {
+         "color": "Белый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "26500",
+         "name": "Дис",
+         "sold": "Продано"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "21500",
+         "name": "Степа",
+         "buy": "Купить",
+         "sale": "-30%"
+      },
+      {
+         "color": "Белый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "33500",
+         "name": "Смуга",
+         "buy": "Купить"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "29500",
+         "name": "Мурчик",
+         "buy": "Купить",
+         "sale": "-40%"
+      },
+      {
+         "color": "Белый",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "11500",
+         "name": "Адам",
+         "buy": "Купить"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "23500",
+         "name": "Дис",
+         "buy": "Купить"
+      },
+      {
+         "color": "Белый",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "28500",
+         "name": "Снуп",
+         "sold": "Продано"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "24500",
+         "name": "Степа",
+         "buy": "Купить",
+         "sale": "-20%"
+      },
+      {
+         "color": "Белый",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "14500",
+         "name": "Смуга",
+         "buy": "Купить"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "17500",
+         "name": "Степа",
+         "buy": "Купить"
+      },
+      {
+         "color": "Серый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "27000",
+         "name": "Дис",
+         "sold": "Продано"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "35000",
+         "name": "Адам",
+         "buy": "Купить"
+      },
+      {
+         "color": "Серый",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "23000",
+         "name": "Мурчик",
+         "buy": "Купить",
+         "sale": "-50%"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "37000",
+         "name": "Снуп",
+         "buy": "Купить"
+      },
+      {
+         "color": "Серый",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "19000",
+         "name": "Смуга",
+         "sold": "Продано"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "26000",
+         "name": "Дис",
+         "buy": "Купить"
+      },
+      {
+         "color": "Серый",
+         "age": "8",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "31000",
+         "name": "Мурчик",
+         "buy": "Купить"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "30000",
+         "name": "Адам",
+         "buy": "Купить",
+         "sale": "-30%"
+      },
+      {
+         "color": "Серый",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "10000",
+         "name": "Дис",
+         "buy": "Купить"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "27000",
+         "name": "Мурчик",
+         "buy": "Купить"
+      },
+      {
+         "color": "Полосатый",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "24000",
+         "name": "Смуга",
+         "buy": "Купить"
+      },
+      {
+         "color": "Полосатый",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "15000",
+         "name": "Снуп",
+         "buy": "Купить",
+         "sale": "-40%"
+      },
+      {
+         "color": "Полосатый",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "10000",
+         "name": "Степа",
+         "sold": "Продано"
+      },
+      {
+         "color": "Полосатый",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "10000",
+         "name": "Снуп",
+         "buy": "Купить"
+      },
+      {
+         "color": "Полосатый",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "33000",
+         "name": "Дис",
+         "sold": "Продано"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "17000",
+         "name": "Степа",
+         "buy": "Купить"
+      },
+      {
+         "color": "Полосатый",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "32000",
+         "name": "Смуга",
+         "buy": "Купить"
+      },
+      {
+         "color": "Коричсневый",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "11000",
+         "name": "Адам",
+         "sold": "Продано"
+      },
+      {
+         "color": "Полосатый",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "20000",
+         "name": "Мурчик",
+         "buy": "Купить",
+         "sale": "-50%"
+      },
+      {
+         "color": "Серый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "15000",
+         "name": "Степа",
+         "sold": "Продано"
+      },
+      {
+         "color": "Серый",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "19000",
+         "name": "Смуга",
+         "sold": "Продано"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "26000",
+         "name": "Дис",
+         "buy": "Купить"
+      },
+      {
+         "color": "Серый",
+         "age": "8",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "31000",
+         "name": "Мурчик",
+         "buy": "Купить"
+      },
+      {
+         "color": "Черно-Серый",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "30000",
+         "name": "Адам",
+         "buy": "Купить"
+      }
+   ]
+}
