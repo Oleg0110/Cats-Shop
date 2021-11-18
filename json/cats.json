@@ -1,0 +1,317 @@
+{
+   "cats": [
+      {
+         "color": "White",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "26500",
+         "name": "Diz",
+         "sold": "Sold"
+      },
+      {
+         "color": "Brown",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "21500",
+         "name": "Stiopa",
+         "buy": "Buy",
+         "sale": "-30%"
+      },
+      {
+         "color": "White",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "33500",
+         "name": "Smug",
+         "buy": "Buy"
+      },
+      {
+         "color": "Brown",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "29500",
+         "name": "Murchik",
+         "buy": "Buy",
+         "sale": "-40%"
+      },
+      {
+         "color": "White",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "11500",
+         "name": "Adam",
+         "buy": "Buy"
+      },
+      {
+         "color": "Brown",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "23500",
+         "name": "Diz",
+         "buy": "Buy"
+      },
+      {
+         "color": "White",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "28500",
+         "name": "Snup",
+         "sold": "Sold"
+      },
+      {
+         "color": "Brown",
+         "age": "2",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "24500",
+         "name": "Stiopa",
+         "buy": "Buy",
+         "sale": "-20%"
+      },
+      {
+         "color": "White",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "14500",
+         "name": "Smug",
+         "buy": "Buy"
+      },
+      {
+         "color": "Brown",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "17500",
+         "name": "Stiopa",
+         "buy": "Buy"
+      },
+      {
+         "color": "Gray",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "27000",
+         "name": "Diz",
+         "sold": "Sold"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "35000",
+         "name": "Adam",
+         "buy": "Buy"
+      },
+      {
+         "color": "Gray",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "23000",
+         "name": "Murchik",
+         "buy": "Buy",
+         "sale": "-50%"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "37000",
+         "name": "Snup",
+         "buy": "Buy"
+      },
+      {
+         "color": "Gray",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "19000",
+         "name": "Smug",
+         "sold": "Sold"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "26000",
+         "name": "Diz",
+         "buy": "Buy"
+      },
+      {
+         "color": "Gray",
+         "age": "8",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "31000",
+         "name": "Murchik",
+         "buy": "Buy"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "30000",
+         "name": "Adam",
+         "buy": "Buy",
+         "sale": "-30%"
+      },
+      {
+         "color": "Gray",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "10000",
+         "name": "Diz",
+         "buy": "Buy"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "27000",
+         "name": "Murchik",
+         "buy": "Buy"
+      },
+      {
+         "color": "Striped",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "24000",
+         "name": "Smug",
+         "buy": "Buy"
+      },
+      {
+         "color": "Striped",
+         "age": "7",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "15000",
+         "name": "Snup",
+         "buy": "Buy",
+         "sale": "-40%"
+      },
+      {
+         "color": "Striped",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "10000",
+         "name": "Stiopa",
+         "sold": "Sold"
+      },
+      {
+         "color": "Striped",
+         "age": "9",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "10000",
+         "name": "Snup",
+         "buy": "Buy"
+      },
+      {
+         "color": "Striped",
+         "age": "5",
+         "paws": "4",
+         "img": "../assets/img/cat1.png",
+         "price": "33000",
+         "name": "Diz",
+         "sold": "Sold"
+      },
+      {
+         "color": "Brown",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat2.png",
+         "price": "17000",
+         "name": "Stiopa",
+         "buy": "Buy"
+      },
+      {
+         "color": "Striped",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "32000",
+         "name": "Smug",
+         "buy": "Buy"
+      },
+      {
+         "color": "Brown",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "11000",
+         "name": "Adam",
+         "sold": "Sold"
+      },
+      {
+         "color": "Striped",
+         "age": "4",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "20000",
+         "name": "Murchik",
+         "buy": "Buy",
+         "sale": "-50%"
+      },
+      {
+         "color": "Gray",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "15000",
+         "name": "Stiopa",
+         "sold": "Sold"
+      },
+      {
+         "color": "Gray",
+         "age": "6",
+         "paws": "4",
+         "img": "../assets/img/cat3.png",
+         "price": "19000",
+         "name": "Smug",
+         "sold": "Sold"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "3",
+         "paws": "4",
+         "img": "../assets/img/cat4.png",
+         "price": "26000",
+         "name": "Diz",
+         "buy": "Buy"
+      },
+      {
+         "color": "Gray",
+         "age": "8",
+         "paws": "4",
+         "img": "../assets/img/cat5.png",
+         "price": "31000",
+         "name": "Murchik",
+         "buy": "Buy"
+      },
+      {
+         "color": "Black-Gray",
+         "age": "1",
+         "paws": "4",
+         "img": "../assets/img/cat6.png",
+         "price": "30000",
+         "name": "Adam",
+         "buy": "Buy"
+      }
+   ]
+}

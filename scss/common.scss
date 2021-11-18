@@ -1,0 +1,48 @@
+//Font Family===========
+@import url("https://fonts.googleapis.com/css2? family = Montserrat & display = swap");
+
+$font-family: Montserrat, sans-serif;
+
+// =====================
+
+//Colors===========
+$main-white-color: rgb(255, 255, 255);
+$main-black-color: rgb(0, 0, 0);
+$sale-color: rgb(255, 0, 0);
+$button-blue-color: rgb(95, 211, 247);
+$phone-hover-color: rgb(98, 255, 59);
+// =====================
+* {
+   transition: 0.3s;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   font-family: $font-family;
+   font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   padding: 0px;
+   margin: 0px;
+}
+
+ul,
+li {
+   display: block;
+}
+
+a {
+   color: $main-white-color;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+}
