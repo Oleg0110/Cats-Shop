@@ -4,10 +4,10 @@ let scrolled;
 let timer;
 let btn = document.getElementById("to-top")
 
-document.getElementById("to-top").onclick = function () {
+btn.addEventListener('click', () => {
    scrolled = window.pageYOffset;
    scrollToTop()
-}
+})
 
 function scrollToTop() {
    if (scrolled > 0) {
