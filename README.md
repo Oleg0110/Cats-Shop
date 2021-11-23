@@ -1,7 +1,7 @@
    <a id="to-top"></a>
 <div align="center"> 
    
-   <img src="cat-icon.png" alt="Logo" width="150px"/>
+   <img src="./README/cat-icon.png" alt="Logo" width="150px"/>
    
    <h1 align="center">This is my first project.</h1>
    <p>I hope you like cats, becouse it's <strong>Cat Shop.</strong></p>
@@ -25,19 +25,19 @@
    <h4><em>-Header</em></h4>
 
    <p align="center">
-   <img src="header-readme.png" alt="Header" >
+   <img src="./README/header-readme.png" alt="Header" >
    </p>
 
    <h4><em>-Catalog</em></h4>
 
    <p align="center">
-   <img src="catalog-readme.png" alt="Catalog" >
+   <img src="./README/catalog-readme.png" alt="Catalog" >
    </p>
 
    <h4><em>-Footer</em></h4>
    
    <p align="center">
-   <img src="footer-readme.png" alt="Footer" >
+   <img src="./README/footer-readme.png" alt="Footer" >
    </p>
 
    ---
@@ -49,13 +49,13 @@
    <h4><em>-Header</em></h4>
 
    <p align="center">
-   <img src="header-for-phone-readme.png" alt="Phone Style" >
+   <img src="./README/header-for-phone-readme.png" alt="Phone Style" >
    </p>
 
    <h4><em>-Burger Menu</em></h4>
 
    <p align="center">
-   <img src="burger-menu-is-open.png" alt="Header" >
+   <img src="./README/burger-menu-is-open.png" alt="Header" >
    </p>
 
 ---
