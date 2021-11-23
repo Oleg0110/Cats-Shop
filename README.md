@@ -1,6 +1,6 @@
    <a id="to-top"></a>
 <div align="center">
-   <img src="cat-icon.png" alt="Logo" width="150px">
+   <img src="cat-icon.png" alt="Logo" width="150px"/>
    <h1 align="center">This is my first project.</h1>
    <p>I hope you like cats, becouse it's <strong>Cat Shop.</strong></p>
 </div>
