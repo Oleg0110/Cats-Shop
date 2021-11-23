@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2? family = Montserrat & display = swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -123,7 +123,7 @@ a {
   margin: 0 auto;
 }
 
-.thanks {
+.thanks__load {
   background-color: rgba(30, 30, 30, 0.7);
   z-index: 11;
   width: 100%;
@@ -142,13 +142,27 @@ a {
 }
 
 .thanks__banner {
+  background-color: rgba(30, 30, 30, 0.7);
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.thanks__info-background, .thanks__load-background {
   background-color: #555555;
   padding: 120px 125px;
   position: relative;
-}
-
-.thanks__info {
-  display: none;
 }
 
 .thanks__titile {
@@ -170,13 +184,13 @@ a {
   cursor: pointer;
 }
 
-.thanks-opened {
+.thanks-banner-opened {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.add-to-chosen {
+.add-to-favorites {
   padding: 21px 75px;
   background-color: #4dc53d;
   border-radius: 10px;
@@ -188,14 +202,50 @@ a {
   transition: 0.5s;
 }
 
-.add-sidebar-opened {
+.add-to-favorites-opened {
   right: 0;
   z-index: 10;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
+.add-to-favorites-close {
+  padding: 21px 75px;
+  background-color: #4dc53d;
+  border-radius: 10px;
+  position: absolute;
+  position: fixed;
+  right: 0;
+  top: 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 .add-text {
+  font-size: 15px;
+  color: white;
+}
+
+.remove-from-favorites {
+  padding: 21px 75px;
+  background-color: #ee0b0b;
+  border-radius: 10px;
+  position: absolute;
+  position: fixed;
+  right: -100%;
+  top: 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.remove-from-favorites-opened {
+  right: 0;
+  z-index: 10;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.remove-text {
   font-size: 15px;
   color: white;
 }
@@ -467,8 +517,12 @@ main {
   position: absolute;
   top: 7%;
   right: 6%;
-  opacity: 0.8;
+  opacity: 0.3;
   cursor: pointer;
+}
+
+.cats__like--pressed {
+  opacity: 1;
 }
 
 .cats__discount {
@@ -586,10 +640,6 @@ main {
           transform: scale(1.15);
   -webkit-transition: 1s;
   transition: 1s;
-}
-
-.cats__like:hover {
-  opacity: 0.9;
 }
 
 .cats__button-buy:hover {
@@ -833,7 +883,7 @@ main {
 .wrapper {
   padding-left: 1em;
   padding-right: 1em;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   width: 195px;
   display: -webkit-box;
