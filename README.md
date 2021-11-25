@@ -22,19 +22,19 @@
 
    ---
 
-   <h4><em>-Header</em></h4>
+   <h4><em>- Header</em></h4>
 
    <p align="center">
    <img src="./README/header-readme.png" alt="Header" >
    </p>
 
-   <h4><em>-Catalog</em></h4>
+   <h4><em>- Catalog</em></h4>
 
    <p align="center">
    <img src="./README/catalog-readme.png" alt="Catalog" >
    </p>
 
-   <h4><em>-Footer</em></h4>
+   <h4><em>- Footer</em></h4>
    
    <p align="center">
    <img src="./README/footer-readme.png" alt="Footer" >
@@ -46,13 +46,13 @@
 
    ---
 
-   <h4><em>-Header</em></h4>
+   <h4><em>- Header</em></h4>
 
    <p align="center">
    <img src="./README/header-for-phone-readme.png" alt="Phone Style" >
    </p>
 
-   <h4><em>-Burger Menu</em></h4>
+   <h4><em>- Burger Menu</em></h4>
 
    <p align="center">
    <img src="./README/burger-menu-is-open.png" alt="Header" >
